@@ -21,7 +21,7 @@
 html { scroll-behavior: smooth }
 
 body {
-    font-family: 'DM Sans', -apple-system, sans-serif;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-weight: 400;
     color: var(--text);
     background: var(--bg);
@@ -31,8 +31,8 @@ body {
     font-size: 15px;
 }
 
-h1,h2,h3 { font-weight: 700; line-height: 1.15; letter-spacing: -0.02em }
-em { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 400 }
+h1,h2,h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; line-height: 1.08; letter-spacing: -0.01em }
+em { font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-weight: 600 }
 a { text-decoration: none; color: inherit }
 img { max-width: 100%; display: block }
 
@@ -59,7 +59,7 @@ img { max-width: 100%; display: block }
     gap: 8px;
     padding: 14px 32px;
     border-radius: var(--pill);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: .85rem;
     font-weight: 500;
     transition: var(--t);
@@ -340,7 +340,7 @@ img { max-width: 100%; display: block }
 }
 
 .slide-names {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--text);
