@@ -29,16 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    /* === Infinite Carousel — clone slides for seamless loop === */
-    const track = document.querySelector('.carousel-track');
-    if (track) {
-        const slides = Array.from(track.children);
-        slides.forEach(slide => {
-            const clone = slide.cloneNode(true);
-            track.appendChild(clone);
-        });
-    }
-
     /* === Fade-up Observer === */
     const observed = document.querySelectorAll('.fade-up');
     if (observed.length) {
